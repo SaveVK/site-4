@@ -1,0 +1,260 @@
+.bg-light {
+    background-color: #fff !important;
+}
+
+.navbar-default {
+    background-color: #fff;
+    border: none;
+}
+
+.navbar-default .navbar-text {
+    color: #090f14
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #090f14;
+    /* font-size: 28pt; */
+    font-family: 'Century Gothic';
+}
+
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:focus {
+    color: #0d151c;
+    background-color: transparent
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus {
+    color: #0d151c;
+    background-color: #e7e7e7
+}
+
+.navbar-default .navbar-nav>.disabled>a,
+.navbar-default .navbar-nav>.disabled>a:hover,
+.navbar-default .navbar-nav>.disabled>a:focus {
+    color: #0d151c;
+    background-color: transparent
+}
+
+.navbar-brand {
+    padding: 0;
+}
+
+.navbar-nav {
+    margin: 0 auto;
+}
+
+.logo {
+    height: 100%;
+}
+
+#logoImg {
+    height: 100%;
+}
+
+/* start home section */
+
+#home {
+    background-image: url("../images/homeBackground.png");
+    background-position: center;
+    display: flex;
+    justify-content: flex-end;
+    padding: 65px 0 0 0;
+}
+
+.cont {
+    display: flex;
+    width: 75%;
+}
+
+.first {
+    /* background-color: #fff; */
+    padding: 50px 40px 40px 0;
+    width: 70%;
+}
+
+.first h2 {
+    color: #fff;
+    font-family: 'Century Gothic';
+}
+
+.first p {
+    margin: 25px 0 0 0;
+    color: #e4e4e4;
+    font-size: 16px;
+}
+
+.second {
+    /* background-color: #090f14; */
+    /* padding: 50px 0; */
+    /* width: 100%; */
+}
+
+.devices {
+    padding: 60px 0;
+    color: #e4e4e4;
+    font-size: 30pt;
+}
+
+.fa {
+    padding: 0 15px 0 0;
+}
+
+.devicesText {
+    font-size: 16px;
+}
+
+.getOrderButton {
+    width: 360px;
+    height: 72px;
+    background-color: #f4f3f2;
+    border-radius: 60px;
+    display: flex;
+    justify-content: center;
+    /* vertical-align: bottom; */
+}
+
+.getOrderButtonText {
+    padding: 17px 0 0 0;
+    color: #0e141c;
+    font-size: 24px;
+    font-family: 'Century Gothic';
+    font-weight: 500;
+}
+
+/* end home section */
+/* start advantage section */
+
+#advantage {
+    background-color: #1b2d22;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.advs {
+    display: flex;
+    justify-content: center;
+    width: 70%;
+}
+
+.adv {
+    margin: 96px;
+    font-family: 'Century Gothic';
+}
+
+.advImg {
+    width: 200px;
+    height: 200px;
+    border: 5px #fff solid;
+    border-radius: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.adv h4 {
+    color: #272727;
+    text-align: center;
+}
+
+.adv p {
+    color: #363636;
+    text-align: center;
+}
+
+
+/* end advantage section */
+
+/* start whatItIs section */
+
+#whatIsIt {
+    padding: 62px 0;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+#whatIsIt2 {
+    padding: 33px 0;
+    font-family: 'Century Gothic';
+    background-color: #f4f3f2;
+}
+
+#whatIsIt2 h3 {
+    text-align: center;
+    width: 70%;
+    margin: 0 auto 60px;
+}
+
+.whatIsIt2Cont {
+    display: flex;
+    justify-content: center;
+}
+
+.whatIsItBlock {
+    display: flex;
+    width: 70%;
+}
+
+.whatIsItBlock p {
+    margin: 25px 0;
+}
+
+.whatIsItText {
+    width: 70%;
+    padding: 0px 60px 0 20px;
+}
+
+.whatIsItText h4 {
+    font-weight: 600;
+}
+
+.whatIsItImg {
+    width: 50%;
+}
+
+
+/* end whatItIs section */
+
+/* start gallery section */
+
+#gallery {
+    
+}
+
+#gallery h2 {
+    text-align: center;
+}
+
+.galleryImg {
+    display: flex;
+    justify-content: center;
+}
+
+.gallerySection {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 70%;
+}
+
+.gImg {
+    width: 23%;
+    margin: 10px;
+}
+
+.gImg img {
+    width: 100%;
+    /* height: 200px; */
+}
+
+/* end gallery section */
+
+/* start rewievs section */
+
+#rewievs {
+    background-image: url("..")
+}
+
+/* end rewievs section */
