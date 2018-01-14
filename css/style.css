@@ -53,6 +53,7 @@
     height: 100%;
 }
 
+
 /* start home section */
 
 #home {
@@ -123,7 +124,10 @@
     font-weight: 500;
 }
 
+
 /* end home section */
+
+
 /* start advantage section */
 
 #advantage {
@@ -166,6 +170,7 @@
 
 /* end advantage section */
 
+
 /* start whatItIs section */
 
 #whatIsIt {
@@ -194,7 +199,7 @@
 
 .whatIsItBlock {
     display: flex;
-    width: 70%;
+    width: 55%;
 }
 
 .whatIsItBlock p {
@@ -217,11 +222,10 @@
 
 /* end whatItIs section */
 
+
 /* start gallery section */
 
-#gallery {
-    
-}
+#gallery {}
 
 #gallery h2 {
     text-align: center;
@@ -236,7 +240,7 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    width: 70%;
+    width: 55%;
 }
 
 .gImg {
@@ -249,7 +253,58 @@
     /* height: 200px; */
 }
 
+
 /* end gallery section */
+
+
+/* start parameters section */
+
+#parametrs {
+    background: #363636;
+    color: #fff;
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.paramText {
+    margin: 30px 0;
+}
+
+.paramPrice {
+    margin: 0 148px 20px;
+    color: red;
+    font-size: 16pt;
+}
+
+.paramButt {
+    background: transparent;
+    border: greenyellow 1px solid;
+}
+
+.paramButt:hover .paramButtText {
+    color: #363636;
+}
+
+.paramButt:hover {
+    background: greenyellow;
+}
+
+.paramButtText {
+    color: greenyellow;
+}
+
+.priceP {
+    font-size: 28pt;
+}
+
+.paramImg {
+    width: 100%;
+}
+
+
+/* end parameters section */
+
 
 /* start rewievs section */
 
@@ -257,4 +312,76 @@
     background-image: url("..")
 }
 
+
 /* end rewievs section */
+
+
+/* start aboutLaser section */
+
+#aboutLaser {
+    background-image: url("../images/background2.jpg");
+    /* height: 100%;  */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.aboutLaserBlock {
+    width: 55%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.aboutLaserImg {
+    width: 25%;
+}
+
+.aboutLaserImg img {
+    width: 100%;
+}
+
+.aboutLaserText {
+    color: #fff;
+}
+
+.aboutLaserText h3 {
+    text-align: center;
+}
+
+
+/* .aboutLaserText p {
+    margin: 20px 20px 0 70px;
+} */
+
+.aboutBLocks {
+    display: flex;
+    justify-content: center;
+}
+
+.aboutBLocksCont {
+    width: 100%;
+}
+
+.aboutBLocksContItem {
+    margin: 20px 20px 0 70px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.aboutBLocksContItemImg {
+    width: 22%;
+    margin-right: -60px;
+}
+
+.aboutText {
+    display: flex;
+    align-items: center;
+}
+
+
+/* end aboutLaser section */
