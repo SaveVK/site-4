@@ -1,3 +1,7 @@
+* {
+    font-family: 'Century Gothic';
+}
+
 .bg-light {
     background-color: #fff !important;
 }
@@ -14,7 +18,6 @@
 .navbar-default .navbar-nav>li>a {
     color: #090f14;
     /* font-size: 28pt; */
-    font-family: 'Century Gothic';
 }
 
 .navbar-default .navbar-nav>li>a:hover,
@@ -107,6 +110,7 @@
 }
 
 .getOrderButton {
+    margin: 60px 0;
     width: 360px;
     height: 72px;
     background-color: #f4f3f2;
@@ -131,7 +135,7 @@
 /* start advantage section */
 
 #advantage {
-    background-color: #1b2d22;
+    background: url("../images/stressed_linen.png");
     width: 100%;
     display: flex;
     justify-content: center;
@@ -348,6 +352,11 @@
     color: #fff;
 }
 
+.aboutLaserText h4 {
+    color: greenyellow;
+    font-weight: 600;
+}
+
 .aboutLaserText h3 {
     text-align: center;
 }
@@ -385,3 +394,156 @@
 
 
 /* end aboutLaser section */
+
+/* start review section */
+
+#reviews {
+    padding: 150px 0;
+    background: url("../images/revBackground.png");
+}
+
+.revBlock {
+    display: flex;
+    justify-content: center;
+}
+
+.review {
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+}
+
+.imgRev {
+    border-radius: 50%;
+    border: #fff 2px solid;
+    margin: 0 0 15px 0;
+}
+
+.textRev {
+    margin: 5px auto; 
+    text-align: center;
+    width: 50%;
+}
+
+.nameRev {
+    margin: 10px auto;
+    text-align: center;
+    font-weight: 700;
+}
+
+.carousel-indicators {
+    bottom: -60px;
+}
+
+.carousel-indicators li {
+    background-color: #efefef;
+    border: #8a8889;
+}
+
+.carousel-indicators .active {
+    background-color: #464646;
+    border: #222222;
+}
+
+/* end reviews section */
+
+/* start order section */
+
+#orderSection {
+    background-color: #fff;
+}
+
+.orderSectionCont {
+    display: flex;
+    justify-content: center;
+    padding: 70px 0;
+}
+
+.orderDiscount {
+    width: 50%;
+    border-right: #464646 2px solid;
+    display: flex;
+    justify-content: center;
+}
+
+.freeDelivery {
+    position: relative;
+    top: -36px;
+    left: 528px;
+    width: 100px;
+    height: 100px;
+}
+
+.orderForm {
+    width: 50%;
+}
+
+.orderTitle h2 {
+    color: #3a3b3c;
+    text-align: center;
+}
+
+.discBlock {
+    border: #a1a1a1 2px solid;
+    padding: 50px 87px;
+    text-align: center;
+}
+
+.discproc {
+    color: #ed2727;
+    font-size: 32pt;
+}
+
+.discprocdc {
+    color: #a5a5a5;
+    font-size: 30pt;
+}
+
+.aed2 {
+    color: #3f4243;
+    text-decoration: line-through;
+    font-size: 26pt;
+}
+
+.aed {
+    color: #da2828;
+    font-size: 30pt;
+}
+
+.offerText {
+    color: #3f4243;
+    font-size: 24pt;
+}
+
+/* second section */
+
+.orderForm {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-form {
+    width: 50%;
+}
+
+.form-control {
+    border-color: #464646;
+    border-radius: 0px;
+}
+
+.inputH {
+    margin: 8px 0;
+}
+
+.sendButton {
+    background-color: #6dcff6;
+    border: none;
+    color: #fff;
+    /* padding: 10px 35px; */
+    /* font-size: 16pt; */
+}
+
+
+/* end order section */
+
+/* end order section */
