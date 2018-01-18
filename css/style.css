@@ -61,7 +61,10 @@
 
 #home {
     background-image: url("../images/homeBackground.png");
+    background-attachment: fixed;
     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     justify-content: flex-end;
     padding: 65px 0 0 0;
@@ -185,15 +188,19 @@
 }
 
 #whatIsIt2 {
-    padding: 33px 0;
-    font-family: 'Century Gothic';
-    background-color: #f4f3f2;
+    padding: 62px 0;
+    background-color: #fff;   
+}
+
+.whatIsIt2Sect {
+    display: flex;
+    justify-content: center;
 }
 
 #whatIsIt2 h3 {
     text-align: center;
     width: 70%;
-    margin: 0 auto 60px;
+    margin: 0 auto 45px;
 }
 
 .whatIsIt2Cont {
@@ -206,14 +213,20 @@
     width: 55%;
 }
 
-.whatIsItBlock p {
-    margin: 25px 0;
-}
-
 .whatIsItText {
     width: 70%;
     padding: 0px 60px 0 20px;
 }
+
+.whatIsItText h3 {
+    margin: 0 0 25px 0;
+}
+
+.whatIsItText2 {
+    width: 70%;
+    padding: 0px 0 0 20px;
+}
+
 
 .whatIsItText h4 {
     font-weight: 600;
@@ -229,10 +242,11 @@
 
 /* start gallery section */
 
-#gallery {}
+#gallery {padding: 62px 0;}
 
 #gallery h2 {
     text-align: center;
+    margin: 0 0 25px 0;
 }
 
 .galleryImg {
@@ -254,7 +268,7 @@
 
 .gImg img {
     width: 100%;
-    /* height: 200px; */
+    height: 200px;
 }
 
 
@@ -264,7 +278,7 @@
 /* start parameters section */
 
 #parametrs {
-    background: #363636;
+    background: url("../images/stressed_linen.png");
     color: #fff;
     padding: 40px 0;
     display: flex;
@@ -329,7 +343,10 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 60px 0;
+    padding: 60px 0;    
+}
+
+.aboutLaserBlock212 {
     display: flex;
     justify-content: center;
 }
@@ -357,8 +374,9 @@
     font-weight: 600;
 }
 
-.aboutLaserText h3 {
+#aboutLaser h3 {
     text-align: center;
+    color: #fff;
 }
 
 
@@ -543,7 +561,46 @@
     /* font-size: 16pt; */
 }
 
-
 /* end order section */
 
-/* end order section */
+@media screen and (max-width: 1030px) {
+    .whatIsItBlock {
+        flex-direction: column;
+    }
+    .whatIsItText {
+        width: 100%;
+    }
+    .whatIsItText2 {
+        width: 100%;
+        margin: 40px 0;
+    }
+    .whatIsItImg {
+        width: 100%;
+    }
+
+    .gImg {
+        width: 29%;
+    }
+
+    .orderSectionCont {
+        flex-direction: column;
+    }
+
+    .orderDiscount {
+        border: none;
+        width: 100%;
+    }
+
+    .orderForm {
+        margin: 30px 0;
+        width: 100%;
+    }
+
+    .aboutLaserImg {
+        width: 100%;
+    }
+    
+    .aboutBLocksContItemImg {
+        margin: 0;
+    }
+}
