@@ -48,6 +48,10 @@
     margin: 0 auto;
 }
 
+.nav-link {
+    padding: 1rem;
+}
+
 .logo {
     height: 100%;
 }
@@ -189,7 +193,7 @@
 
 #whatIsIt2 {
     padding: 62px 0;
-    background-color: #fff;   
+    background-color: #fff;
 }
 
 .whatIsIt2Sect {
@@ -227,7 +231,6 @@
     padding: 0px 0 0 20px;
 }
 
-
 .whatIsItText h4 {
     font-weight: 600;
 }
@@ -242,7 +245,9 @@
 
 /* start gallery section */
 
-#gallery {padding: 62px 0;}
+#gallery {
+    padding: 62px 0;
+}
 
 #gallery h2 {
     text-align: center;
@@ -281,8 +286,53 @@
     background: url("../images/stressed_linen.png");
     color: #fff;
     padding: 40px 0;
+}
+
+#parametrs h3 {
+    text-align: center;
+}
+
+.parametrsSect {
     display: flex;
     justify-content: center;
+}
+
+.parBlock {
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+}
+
+.parBlockItem {
+    margin: 10px 0;
+    padding: 40px 0;
+    border: #545454 solid 1px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.parText .getOrderButton {
+    width: auto;
+    margin: 0;
+}
+
+.parImg {
+    width: 50%;
+}
+
+.parText {
+    width: 30%;
+    margin: auto 0;
+}
+
+.qwx {
+    display: flex;
+    justify-content: space-between;
+}
+
+.qwzText {
+    text-align: center;
+    color: lightgrey;
 }
 
 .paramText {
@@ -290,9 +340,10 @@
 }
 
 .paramPrice {
-    margin: 0 148px 20px;
+    text-align: center;
+    margin: 5px 0 0 0;
     color: red;
-    font-size: 16pt;
+    font-size: 23pt;
 }
 
 .paramButt {
@@ -320,6 +371,11 @@
     width: 100%;
 }
 
+.parAftText {
+    margin: 10px 0;
+    text-align: center;
+}
+
 
 /* end parameters section */
 
@@ -343,7 +399,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 60px 0;    
+    padding: 60px 0;
 }
 
 .aboutLaserBlock212 {
@@ -413,6 +469,7 @@
 
 /* end aboutLaser section */
 
+
 /* start review section */
 
 #reviews {
@@ -438,7 +495,7 @@
 }
 
 .textRev {
-    margin: 5px auto; 
+    margin: 5px auto;
     text-align: center;
     width: 50%;
 }
@@ -463,7 +520,9 @@
     border: #222222;
 }
 
+
 /* end reviews section */
+
 
 /* start order section */
 
@@ -533,6 +592,7 @@
     font-size: 24pt;
 }
 
+
 /* second section */
 
 .orderForm {
@@ -561,7 +621,30 @@
     /* font-size: 16pt; */
 }
 
+
 /* end order section */
+
+@media screen and (max-width: 1300px) {
+    .aboutLaserImg {
+        width: 100%;
+    }
+    .aboutBLocksContItemImg {
+        margin: 0;
+    }
+
+    .parBlockItem {
+        flex-direction: column;
+    }
+
+    .parImg {
+        width: 100%;
+        padding: 0 30px;
+    }
+    .parText {
+        width: 50%;
+        margin: 35px auto 0 auto;
+    }
+}
 
 @media screen and (max-width: 1030px) {
     .whatIsItBlock {
@@ -577,30 +660,18 @@
     .whatIsItImg {
         width: 100%;
     }
-
     .gImg {
         width: 29%;
     }
-
     .orderSectionCont {
         flex-direction: column;
     }
-
     .orderDiscount {
         border: none;
         width: 100%;
     }
-
     .orderForm {
         margin: 30px 0;
         width: 100%;
-    }
-
-    .aboutLaserImg {
-        width: 100%;
-    }
-    
-    .aboutBLocksContItemImg {
-        margin: 0;
     }
 }
